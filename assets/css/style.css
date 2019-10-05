@@ -1,0 +1,96 @@
+:root {
+  --ligth: #f8f9fa;
+  --white: #fff;
+  --success: #28a745;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: var(--success);
+}
+
+.navbar {
+  flex-wrap: inherit;
+  font-weight: 300;
+}
+.centro {
+  background-color: var(--white);
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+h5 {
+  color: #212529;
+  font-weight: 300;
+  font-size: 20px;
+}
+p {
+  color: #707070;
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: 13px;
+}
+i {
+  fill: #707070;
+}
+p:nth-child(2) {
+  font-size: 13px;
+}
+.card-body {
+  padding: 10px;
+}
+
+hr {
+  margin: 0px;
+  margin-top: 10.5px;
+}
+.card-body a.card-link:first-child {
+  color: #707070;
+  font-weight: 300;
+  font-size: 16px;
+}
+p.card-text {
+  font-size: 16px;
+  font-weight: 300;
+}
+.card-body a.card-link:nth-child(2) {
+  color: var(--success);
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 18px;
+  margin-left: 11px;
+}
+div.card-body.text-right {
+  padding-bottom: 15px;
+}
+
+.color-fondo {
+  background-color: var(--success);
+}
+.form-control {
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 5px;
+}
+.card {
+  margin-bottom: 2.5rem;
+}
+footer {
+  color: #707070;
+  background-color: var(--white);
+}
+p.fot {
+  font-size: 16px;
+  padding-bottom: 22px;
+}
